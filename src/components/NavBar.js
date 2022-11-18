@@ -1,9 +1,10 @@
+import React from 'react';
 import logo from '../imagen/logo.jpn.png';
 import CartWidget from './CartWidget.js';
 
 
 
-function NavBar() {
+export function NavBar() {
     return (
       <header className="App-header">
         <div className='Logo'>
